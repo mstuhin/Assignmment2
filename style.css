@@ -1,0 +1,240 @@
+/*----- fonts style */
+body{
+    font-family: 'Amiri', serif;
+font-family: 'Antic Slab', serif;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Love Light', cursive;
+font-family: 'Merriweather Sans', sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen {
+    max-width: max-width: 600px;
+    min-width: 300px
+
+    
+}
+
+/*--------menu bar style -------*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 50px;
+}
+
+
+
+   
+nav>ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+.button{
+    display: flex;
+}
+
+.button li{
+    list-style: none;
+    margin-left: 10px;
+
+}
+.button a{
+    text-decoration: none;
+}
+
+.button-link{
+    display: flex;
+    padding: 10px 20px;
+    background-color:rgb(231, 9, 201);
+    color: white;
+    border-radius: 12px;
+}
+
+.button2{
+    display: flex;
+    color: rgb(231, 9, 201); 
+    padding-left: 980px;
+    padding-top: 50px;
+    
+
+}
+
+h1{
+font-size: 40px;
+}
+    
+
+/* ----images style -------*/
+.camera-info{
+    margin-top: 80px;
+    margin-left: 110px;
+   
+}
+
+.camera-image{
+
+    margin-right: 100px;
+
+}
+
+#camera{
+    position: relative;
+    z-index: 1;
+}
+#bgdesing{
+    position: relative;
+    top: -425px;
+}
+
+#camera img{
+    width: 370px;
+    height: 374px;
+}
+
+#bgdesing img{
+    width: 390px;
+    height: 390px;
+    margin-top: 50px;
+    
+
+}
+
+/* ---------logos style ------------*/
+
+.logos{
+    border-top: solid rgb(209, 209, 230);
+    border-bottom: solid rgb(209, 209, 235);
+    
+}
+
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+  
+
+}
+
+/* popular products style */
+
+#popular-title{
+    display: flex;
+    justify-content: center;
+}
+
+.star{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-star.filld{
+    color: goldenrod;
+}
+
+.fa-star.empty{
+    color: gray;
+    
+}
+
+.Popular-Collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.products-info{
+    width: 180px;
+    height: 550px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* ----last section */
+
+.future img{
+    width: 380px;
+    height: 235px;
+    padding-top: 28px;
+    padding-left: 100px;
+}
+
+#last-section{
+    display: flex;
+}
+
+.technology{
+    width: 390px;
+    padding-left: 70px;
+}
+
+.button3{
+    display: flex;
+    padding: 10px 20px;
+    background-color:rgb(231, 9, 201);
+    color: white;
+}
+
+/* footer style */
+
+
+
+footer{
+    background-color: rgb(7, 4, 43);
+
+}
+
+#footer-text{
+    color: white;
+    padding-left: 500px;
+    padding-top: 35px;
+}
+
+#last-text{
+    color: rgb(211, 195, 195);
+    padding-left: 480px;
+}
+
+#last{
+    color: rgb(216, 185, 185);
+    padding-left: 550px;
+
+}
+
+#link-icon{
+    padding-left: 590px;
+    padding-bottom: 40px;
+}
+
+.fa-instagram-square{
+    color: white;
+}
+
+.fa-twitter{
+    color: white;
+}
+
+.fa-youtube{
+    color: white;
+}
